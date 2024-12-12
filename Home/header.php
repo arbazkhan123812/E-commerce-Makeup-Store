@@ -48,7 +48,7 @@ $showCartIcon = isset($_SESSION['carts']) && count($_SESSION['carts']) > 0;
     <header class="main-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="images/jennyjewels.png" class="logo" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
