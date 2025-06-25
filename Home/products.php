@@ -15,20 +15,11 @@
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>Featured Products</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-    <div class="col-lg-12">
-        <div class="special-menu text-center">
-            <div class="button-group filter-button-group">
-                <button class="active" data-filter="*">All</button>
-                <button data-filter=".cosmetic">Cosmetics</button>
-                <button data-filter=".jewelry">Jewelry</button>
-            </div>
-        </div>
-    </div>
+   
 </div>
 
 <div class="row special-list">

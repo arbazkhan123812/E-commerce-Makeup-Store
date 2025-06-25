@@ -1,12 +1,9 @@
 <?php
    include('../Database/connection.php');
-  
-  
-include('header.php');
+   include('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
 
 <head>
     <meta charset="utf-8">
@@ -16,10 +13,10 @@ include('header.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
-    <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Arbaz Electric Store</title>
+    <meta name="keywords" content="electric store, electronics, appliances, fans, LED, smart home">
+    <meta name="description" content="Explore Arbaz Electric Store for quality electric items, fans, LEDs, and smart appliances.">
+    <meta name="author" content="Arbaz Electric Store">
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -33,26 +30,16 @@ include('header.php');
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
-
-
-
-  
 
     <!-- Start Top Search -->
     <div class="top-search">
         <div class="container">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Search electric items...">
                 <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
             </div>
         </div>
@@ -80,51 +67,54 @@ include('header.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="noo-sh-title">We are <span>Jenny Jewels & Cosmetics </span></h2>
+                    <h2 class="noo-sh-title">We are <span>Arbaz Electric Store</span></h2>
                     <p>
-                    "Jenny Jewelry & Cosmetics is your premier destination for elegance, quality, and style, offering a curated selection of stunning jewelry and luxurious cosmetics crafted to enhance your beauty and confidence. We believe that every individual deserves to feel special, which is why our collections are designed with a blend of timeless sophistication and modern flair. From classic necklaces and rings that exude elegance to bold statement pieces that add a touch of drama, our jewelry reflects a passion for craftsmanship and attention to detail. Our premium cosmetics are formulated to bring out the best in your natural beauty, with products that not only look beautiful but feel exquisite, providing the perfect finishing touch for any occasion.
-
-At Jenny Jewelry & Cosmetics, we’re dedicated to making every shopping experience inspiring and memorable. Whether you're looking for a meaningful gift, a unique piece for a special event, or simply treating yourself to something extraordinary, you’ll find just what you need in our thoughtfully curated collections. Each item is selected with care to ensure that our customers receive only the finest quality and style. Step into a world where beauty, sophistication, and confidence come together effortlessly. With Jenny Jewelry & Cosmetics, every piece you wear and every product you use becomes a reflection of your inner glow, making you shine from the inside out.
-
-Our mission is to create a place where elegance meets individuality, and where beauty is as unique as you are. Let Jenny Jewelry & Cosmetics be your trusted companion on your journey to embracing your personal style, and discover the transformative power of jewelry and beauty that truly resonates with who you are. Explore our collections and find the perfect match that speaks to your soul, uplifts your spirit, and lets you shine in every moment. Jenny Jewelry & Cosmetics: Where timeless beauty meets modern elegance, helping you feel your absolute best, every day."                </p>                        </p>
+                        Arbaz Electric Store is your one-stop destination for high-quality electrical appliances, gadgets, and components. Whether you're upgrading your home, setting up a workspace, or simply looking for reliable and energy-efficient solutions, we bring you a curated selection of modern electric products that combine durability, performance, and innovation.
+                    </p>
+                    <p>
+                        From ceiling fans, LED lights, and switches to kitchen appliances, tools, and smart home devices, we offer a wide range of items to power your everyday life. Our goal is to make premium electric items accessible to everyone by providing trusted brands and excellent customer service at competitive prices.
+                    </p>
+                    <p>
+                        At Arbaz Electric Store, we value safety, efficiency, and reliability. Every product is tested and selected with care to ensure that our customers receive the best. Whether you're an individual looking for home solutions or a contractor sourcing for projects, you'll find everything you need under one roof.
+                    </p>
+                    <p>
+                        Explore our growing collection and light up your home or workplace with confidence and quality. Arbaz Electric Store — where power meets performance.
+                    </p>
                 </div>
                 <div class="col-lg-6">
-                    <div class="banner-frame"> <img class="img-thumbnail img-fluid" src="images/about-img.jpg" alt="" />
+                    <div class="banner-frame">
+                        <img class="img-thumbnail img-fluid" src="images/about-img.jpg" alt="Electric Products" />
                     </div>
                 </div>
             </div>
+
             <div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Trusted</h3>
-                        <p>Step into a world where beauty, sophistication, and confidence come together effortlessly. With Jenny Jewelry & Cosmetics, every piece you wear. </p>
+                        <p>We have built a reputation for offering only the most reliable and efficient electric items across Pakistan.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Professional</h3>
-                        <p>Jenny Jewelry & Cosmetics: Where timeless beauty meets modern elegance, helping you feel your absolute best, every day.</p>
+                        <p>Our trained staff and expert sourcing ensure high standards in every product delivered to our customers.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Expert</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>With years of experience in electrical goods, we understand what works best for homes and businesses alike.</p>
                     </div>
                 </div>
             </div>
-           
         </div>
     </div>
     <!-- End About Page -->
 
-   
-
-
     <!-- Start Footer  -->
     <?php include('footer.php') ?>
     <!-- End Footer  -->
-
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
@@ -146,3 +136,4 @@ Our mission is to create a place where elegance meets individuality, and where b
     <script src="js/custom.js"></script>
 </body>
 
+</html>
